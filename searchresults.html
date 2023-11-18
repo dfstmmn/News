@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsNow</title>
+    <link rel="stylesheet" href="searchresults.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+</head> 
+<body>
+
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 10%; box-sizing: border-box;">
+        <div class="left">
+             <img src="logo.png" style="width: 100x; height: 50px;">
+        </div>
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+
+        <div class="inputBox_container">
+            <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" alt="search icon">
+              <path d="M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z">
+              </path>
+            </svg>
+            <input class="inputBox" id="inputBox" type="text" placeholder="Enter Keywords...">
+          </div>
+    </div>
+    </header>
+
+    <main>
+        <!-- Search Results Section -->
+        <section id="search-results-container">
+            <h2>Search Results</h2>
+            <!-- This is where the search results will be displayed -->
+        </section>
+    </main>
+    
+    <script src="searchresults.js"></script>
+    
+</body>
+</html>

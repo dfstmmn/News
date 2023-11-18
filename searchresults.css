@@ -1,0 +1,99 @@
+/* Basic reset for common elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font */
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #284966; /* A deep blue for a professional look */
+    color: #fff;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style for each article */
+.article {
+    width: 48%; /* Adjusted width */
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc; /* Add a thin horizontal line at the bottom */
+    padding-bottom: 10px; /* Add some space between articles */
+}
+
+/* Style for the article image */
+.article img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+/* Additional styling for other elements as needed */
+
+/* Style for search bar */
+.inputBox_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 14em;
+    width: fit-content;
+    height: fit-content;
+    background-color: #5c6370;
+    border-radius: 0.8em;
+    overflow: hidden;
+}
+
+.search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #abb2bf;
+}
+
+.inputBox {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1em 0.5em 0; /* Adjusted padding */
+    font-size: 1em;
+}
+
+::placeholder {
+    color: #abb2bf;
+}
+
+/* Main content area styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
